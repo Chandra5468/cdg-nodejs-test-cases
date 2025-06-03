@@ -15,7 +15,7 @@ RESOURCE :
 Types of Testing :
 
 
-	1. UNIT Testing :
+	1. UNIT Testing : (70% out of all test cases)
 
 			Unit testing focuses on individual components or functions in "isolation".
 
@@ -31,7 +31,10 @@ Types of Testing :
 
 			Example: Testing a function that calculates the area of a circle. 
 
-	2. Integration Testing :
+
+			JEST
+
+	2. Integration Testing : (20% out of all test cases)
 
 			Testing of a connected functions together in "Isolation".
 
@@ -43,7 +46,10 @@ Types of Testing :
 
 			Example: Testing the interaction between a front-end web application and a back-end API. 
 
-	3. End-to-End Testing :
+
+			JEST, SUPERTEST
+
+	3. End-to-End Testing : (10% out of all test cases)  --- Only important flow for business like payment flow, 																	registration flow etccc must be considered
 
 			Real use case simulation testing programatically
 
@@ -57,6 +63,18 @@ Types of Testing :
 
 
 			OR User form submission, 
+
+
+			CYPRUS, Puppeteer, PlayWright
+
+
+
+
+	4. Test Driven Development : TDD
+
+				This is a bit different case. Where tests are written first, later development is done.
+
+				In this we first think of all the test cases then do the development work around it.
 
 
 
@@ -162,6 +180,18 @@ Types of Testing :
 		This creates a file inside of results of snapshot.
 
 		This is always commited to git 
+
+----------------------------------------------------------------------------------------------------------------
+
+
+
+	Integration Testing :
+
+		Super test : If you are using express.js
+
+		JEST : Testing tool
+
+
 
 ============================================================================================================
 ============================================================================================================
